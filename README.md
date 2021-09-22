@@ -18,7 +18,7 @@
 
 ![output](output.png)
 
-* To view all 10 columns of the output make the following changes in the [script.py](https://github.com/ayushpaine/AUGSD-Project-python-script/blob/main/script.py) file in the project folder(although, the "10" may be substituted with any digit from 1-10 to view the respective amount of columns).
+* To view all 10 columns of the output make the following changes in the [script.py](https://github.com/ayushpaine/AUGSD-script/blob/main/augsd_prereq.py) file in the project folder(although, the "10" may be substituted with any digit from 1-10 to view the respective amount of columns).
 ```python
 if __name__ == "__main__" :
    pd.options.display.max_columns = 10
@@ -28,18 +28,18 @@ if __name__ == "__main__" :
    * On Windows -
      
      ```
-     git clone https://github.com/ayushpaine/AUGSD-Project-python-script.git
-     cd AUGSD-Project-python-script/
-     pip install -r requirements.txt
+     git clone https://github.com/ayushpaine/AUGSD-script.git
+     cd AUGSD-script/
+     pip install -r requirementsWIN.txt
      python script.py
      ```
    
    * On macOS and Linux -
      
      ```
-     git clone https://github.com/ayushpaine/AUGSD-Project-python-script.git
-     cd AUGSD-Project-python-script/
-     pip3 install -r requirements.txt
+     git clone https://github.com/ayushpaine/AUGSD-script.git
+     cd AUGSD-script/
+     pip3 install -r requirementsUNIX.txt
      python3 script.py
      ```
 
@@ -58,10 +58,9 @@ Any version >= 3.7 would suffice. If you don't have it installed, then you can [
 
 * This script is made using the NumPy and Pandas python libraries which extract data from a CSV file containing student details and check it against an excel file containing registration data for the available subjects.
 
-* The script takes in a ```regdata.csv``` file and a ```Prerequisite.xlsx``` file and created Pandas DataFrames out of both of them and extracts the courses, name and other details for a particular student from the ```regdata.csv``` DataFrame and stores them in python dictionaries. Next, these dictionaries are iterated upon and their contents are ran through various conditions inside the ```Prerequisite.xlsx``` DataFrame and depending upon these conditions, they are stored in various python lists. If certain prerequisites aren't registered then they are stored in a list. Finally, all these lists containing specific data are appended to an output DataFrame which is then printed and is visible on the terminal. 
+* The script takes in a ```regdata.csv``` file and a ```Pre-requisite_final.xlsx``` file and created Pandas DataFrames out of both of them and extracts the courses, name and other details for a particular student from the ```regdata.csv``` DataFrame and stores them in python dictionaries. Next, these dictionaries are iterated upon and their contents are ran through various conditions inside the ```Pre-requisite_final.xlsx``` DataFrame and depending upon these conditions, they are stored in various python lists. If certain prerequisites aren't registered then they are stored in a list. Finally, all these lists containing specific data are appended to an output DataFrame which is then printed and is visible on the terminal. 
 
-For detailed explanation of the script, refer to the [Jupyter Notebook file](https://github.com/ayushpaine/AUGSD-Project-python-script/blob/main/scriptnb.ipynb).
+For detailed explanation of the script, refer to the [Jupyter Notebook file](https://github.com/ayushpaine/AUGSD-script/blob/main/AUGSD_prereq.ipynb).
 
 # Contact
-Project Link : [https://github.com/ayushpaine/AUGSD-Project-python-script](https://github.com/ayushpaine/AUGSD-Project-python-script)  
-E-mail : [ayushmt701@gmail.com](https://mail.google.com/)
+E-mail : [Shreyas V](mailto:shreyas.college@gmail.com), [Ayush Paine](mailto:ayushmt701@gmail.com)
