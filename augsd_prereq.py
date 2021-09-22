@@ -76,7 +76,6 @@ for row in regdata.itertuples() :
             id_studname[idno] = list(set(id_studname[idno]))
             id_campusid[idno] = list(set(id_campusid[idno]))
 
-print(id_sub)
 
 # function to convert items of a list to a string
 def alist(prereq_list):
@@ -171,7 +170,7 @@ for key, value in id_sub.items() :
                 else: # Pre-Requisites NOT Met Condition
                     final_df = final_df.append({'Course Title': course_name,'BITS ID': list(id_campusid[key])[0], 'Student Name': list(id_studname[key])[0], "ID No.": key, "Course Code": subject + " " + code,"Pre-requisites": alist(prereq), "Comments": "Pre-requisites " + ' '.join(comments) + " not met", 'Pre-Req Met': '0'},ignore_index = True)
 
-final_df
+
 
 # Code to detect if a Course has a Pre-Requisite course being taken for which the Pre-Requisites are not satisfied
 
