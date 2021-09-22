@@ -7,7 +7,7 @@
 * This script takes input from the user in the form of a CSV file consisting of the registration data of the students and an excel file containing list of courses available and their prerequisites, in the following format keeping case-sensitivity in mind along with stray white spaces.
 
 
-![registration data](Images/regdata.png)
+![registration data](regdata.png)
 
 
 ![course pre-requisites](Images/pre-req.png)
