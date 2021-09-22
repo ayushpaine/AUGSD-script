@@ -205,7 +205,5 @@ for i,row in final_df.iterrows():
                 # Changing Comments as Pre-Requisites not met
                 final_df.at[i,'Comments'] = 'Pre-Requisites of ' + data + ' not met'
                
-final_df
-
-prereq
+print(final_df)
 
