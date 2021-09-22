@@ -14,7 +14,7 @@ import numpy as np
 # Loading Required files into Pandas Dataframe
 
 regdata = pd.read_csv("regdata.csv")
-prereq = pd.read_excel("Pre-requisite_final.xlsx", skiprows = [0])
+prereq_data = pd.read_excel("Pre-requisite_final.xlsx", skiprows = [0])
 
 # prereq_data = pd.read_excel('/content/drive/MyDrive/Clubs/AUGSD/Pre-requisite_final.xlsx', skiprows = [0])    # Loading Pre-requisites file
 # regdata = pd.read_csv('/content/drive/MyDrive/Clubs/AUGSD/regdata.csv')                                       # Loading Registration Data
