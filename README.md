@@ -31,7 +31,7 @@ if __name__ == "__main__" :
      git clone https://github.com/ayushpaine/AUGSD-script.git
      cd AUGSD-script/
      pip install -r requirementsWIN.txt
-     python script.py
+     python augsd_prereq.py
      ```
    
    * On macOS and Linux -
@@ -40,7 +40,7 @@ if __name__ == "__main__" :
      git clone https://github.com/ayushpaine/AUGSD-script.git
      cd AUGSD-script/
      pip3 install -r requirementsUNIX.txt
-     python3 script.py
+     python3 augsd_prereq.py
      ```
 
 To add custom data, replace the given CSV and excel files with your own, in the aforementioned directory, and make sure that the files are in the same format as mentioned above.
