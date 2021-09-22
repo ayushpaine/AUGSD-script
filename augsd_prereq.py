@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1BveKohNNbVrT2PPLjwQJFyBQsqorWp4o
 """
 
-#Mount Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
-
 # Import Required Libraries
 import pandas as pd
 import numpy as np
