@@ -16,7 +16,7 @@
 * The output is in the format given below and contains the courses registered by the student(whose name and ID are mentioned), their prerequesites(if any) along with the list of unsatisifed prerequisites(if any) and comments regarding the registration status of the subject. 
 
 
-![output](output.png)
+![output](output.jpeg)
 
 * To view all 10 columns of the output make the following changes in the [script.py](https://github.com/ayushpaine/AUGSD-script/blob/main/augsd_prereq.py) file in the project folder(although, the "10" may be substituted with any digit from 1-10 to view the respective amount of columns).
 ```python
