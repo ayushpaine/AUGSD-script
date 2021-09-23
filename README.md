@@ -20,7 +20,6 @@
 
 * To view all 10 columns of the output make the following changes in the [script.py](https://github.com/ayushpaine/AUGSD-script/blob/main/augsd_prereq.py) file in the project folder(although, the "10" may be substituted with any digit from 1-10 to view the respective amount of columns).
 ```python
-if __name__ == "__main__" :
    pd.options.display.max_columns = 10
 ```
 
